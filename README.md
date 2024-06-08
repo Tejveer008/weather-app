@@ -13,4 +13,5 @@ Enter a location in the search box.
 Click the "Search" button to retrieve the weather information.
 
 # API Reference
-This application uses the OpenWeatherMap API. You will need an API key to use the service.
+This application uses the [OpenWeatherMap](https://openweathermap.org/api)
+ API. You will need an API key to use the service.
