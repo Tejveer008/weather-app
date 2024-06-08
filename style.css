@@ -1,0 +1,236 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Ubuntu:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+    
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    background-image: url("bg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    overflow: auto;
+}
+
+.header h4 {
+    color: #0097fcab;
+    font-weight: 700;
+    font-size: 2.4rem;
+    font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+    background-color: #fff8f8;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.app-main {
+    min-height: 10vh;
+    width: 30vw;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 3px 2px #018d92;
+    border-radius: 15px;
+    background: #00B4DB;
+    background: -webkit-linear-gradient(to right, #0083B0, #00B4DB);
+    background: linear-gradient(to right, #0083B0, #00B4DB);
+}
+
+.app-main > * {
+    margin-bottom: 15px;
+}
+
+.input-box {
+    width: 100%;
+    background: azure;
+    color: #e4603a;
+    font-weight: 500;
+    border: none;
+    font-size: 1.7rem;
+    border-radius: 10px;
+    padding: 10px;
+    text-align: center;
+    outline: none;
+}
+
+button {
+    margin-top: 1rem;
+    background-color: #01a817;
+    color: white;
+    border: none;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #025a06;
+}
+
+.weather-body {
+    color: #fff;
+    padding: 20px;
+    line-height: 2rem;
+    border-radius: 10px;
+    background-color: #eff1f3;
+    display:none;
+    background: linear-gradient(to top, #09cddb, #00bac0);
+}
+
+.location-deatils {
+    font-weight: bold;
+}
+
+.weather-status {
+    padding: 20px;
+}
+
+.temp {
+    font-size: 5rem;
+    font-weight: 700;
+    text-shadow: 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.weather {
+    margin-top: 25px;
+    font-size: 2rem;
+    margin-bottom: 10px;
+}
+
+.min-max {
+    font-size: 1.2rem;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.day_details {
+    padding: 20px;
+}
+
+.sun-detail,
+.basic {
+    font-size: 1rem;
+}
+
+#weather-icon {
+    color: black;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 800px) {
+    .app-main {
+        width: 95%;
+        padding: 10px;
+    }
+
+    .header h4 {
+        font-size: 1.8rem;
+        padding: 5px;
+    }
+
+    .input-box {
+        font-size: 1.4rem;
+        padding: 8px;
+    }
+
+    button {
+        font-size: 1.2rem;
+        padding: 8px 16px;
+    }
+
+    .weather-body {
+        padding: 10px;
+    }
+
+    .temp {
+        font-size: 3.5rem;
+    }
+
+    .weather {
+        font-size: 1.5rem;
+    }
+
+    .min-max {
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .app-main {
+        width: 100%;
+        margin: 20px auto;
+        padding: 10px;
+    }
+
+    .header h4 {
+        font-size: 1.5rem;
+    }
+
+    .input-box {
+        font-size: 1.2rem;
+        padding: 6px;
+    }
+
+    button {
+        font-size: 1rem;
+        padding: 6px 12px;
+    }
+
+    .weather-body {
+        padding: 5px;
+    }
+
+    .temp {
+        font-size: 3rem;
+    }
+
+    .weather {
+        font-size: 1.2rem;
+    }
+
+    .min-max {
+        font-size: 0.9rem;
+    }
+}
+
+footer {
+  text-align: center;
+  padding: 0.5px;
+  background-color: #057496;
+  color: #fff;
+  font-size: 1.2rem;
+  position:relative;
+  bottom: 0%;
+  width: 100%;
+}
+
+
+
+.social-links {
+  margin-bottom: 10px;
+}
+
+.social-link {
+  display: inline-block;
+  margin: 05px;
+  color: #fff;
+  font-size: 1.5rem;
+}
+.social-link:hover{
+  display: inline-block;
+  margin: 05px;
+  color: #09b4caf3;
+  font-size: 1.5rem;
+}
+
+
+.footer-text {
+  font-size: 1rem;
+}
+

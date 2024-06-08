@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather App</title>
+    <link rel="icon" href="title.png" type="image/icon type">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="app-main" id="parent">
+        <div class="header">
+            <h4>Get Weather Report</h4>
+        </div>
+        <div class="searchInputBox">
+            <input type="text" id="input-box" class="input-box" placeholder="Enter City Name">
+            <button onclick="getWeatherReport(document.getElementById('input-box').value)">Submit</button>
+        </div>
+        <div class="weather-body" id="weather-body">
+            <!-- weather-body will be appended through JavaScript -->
+        </div>
+    </div>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://www.facebook.com/AccuWeather" class="social-link" target="_blank"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://x.com/accuweather" class="social-link" target="_blank"><i class="fab fa-twitter" ></i></a>
+            <a href="https://www.youtube.com/@accuweather" class="social-link" target="_blank"><i class="fab fa-youtube"></i></a>
+        </div>
+        <div class="footer-text">© 2024 Your Weather App</div>
+    </footer>
+    
+
+    <script src="script.js"></script>
+    <!-- Font Awesome icon CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+        integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- SweetAlert CDN -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+</html>
