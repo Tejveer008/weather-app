@@ -69,23 +69,23 @@ function dateManage(dateArg) {
 
 function changeBg(status) {
     if (status === 'Clouds') {
-        document.body.style.backgroundImage = 'url("/images/clouds.webp")';
+        document.body.style.backgroundImage = 'url("images/clouds.webp")';
     } else if (status === 'Rain') {
-        document.body.style.backgroundImage = 'url("/images/rainy.webp")';
+        document.body.style.backgroundImage = 'url("images/rainy.webp")';
     } else if (status === 'Clear') {
-        document.body.style.backgroundImage = 'url("/images/clear.webp")';
+        document.body.style.backgroundImage = 'url("images/clear.webp")';
     } else if (status === 'Snow') {
-        document.body.style.backgroundImage = 'url("/images/snow.webp")';
+        document.body.style.backgroundImage = 'url("images/snow.webp")';
     } else if (status === 'Sunny') {
-        document.body.style.backgroundImage = 'url("/images/sunny.webp")';
+        document.body.style.backgroundImage = 'url("images/sunny.webp")';
     } else if (status === 'Thunderstorm') {
-        document.body.style.backgroundImage = 'url("/images/storm.webp")';
+        document.body.style.backgroundImage = 'url("images/storm.webp")';
     } else if (status === 'Drizzle') {
-        document.body.style.backgroundImage = 'url("/images/drizzle.webp")';
+        document.body.style.backgroundImage = 'url("images/drizzle.webp")';
     } else if (status === 'Mist' || status === 'Haze' || status === 'Fog') {
-        document.body.style.backgroundImage = 'url("/images/mist.webp")';
+        document.body.style.backgroundImage = 'url("images/mist.webp")';
     } else {
-        document.body.style.backgroundImage = 'url("/images/bg.webp")';
+        document.body.style.backgroundImage = 'url("images/bg.webp")';
     }
 }
 
